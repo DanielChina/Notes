@@ -1,4 +1,4 @@
-# Introduction in English
+# Introduction
 1. This app is used to take notes. 
 2. It uses the Glide to resize the images. 
 3. There is a self-defined view called RichTextView to edit images and Text. This part of codes came from others' source code. 

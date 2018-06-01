@@ -10,3 +10,7 @@
 2. 采用Glide缩小图片
 3. 自定义RichTextView部分主要来自于其他人的源码，谢谢提供者！
 4. 本app采用Matisse Andorid 图片选择器。
+
+![0514_9](https://user-images.githubusercontent.com/28782806/40835968-a9c6ff28-65c7-11e8-82fa-22426545ede7.png)
+![0514_13](https://user-images.githubusercontent.com/28782806/40835974-af58b8b4-65c7-11e8-87bf-48a035491290.png)
+![0514_14](https://user-images.githubusercontent.com/28782806/40835978-b4b72980-65c7-11e8-86f8-61dffeb19df8.png)

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/note_list"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/note_list"
+        android:visible="true" />
+    <item
+        android:id="@+id/star_list"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/star_list" />
+    <item
+        android:id="@+id/new_note"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/new_notes" />
+
+</menu>

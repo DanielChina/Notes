@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clas.daniel.notes.view.DeletableEditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:cursorVisible="true"
+    android:lineSpacingExtra="8dp"
+    android:textSize="16sp"
+    android:textColor="#616161"
+    android:id="@+id/deletable_edit_text"/>

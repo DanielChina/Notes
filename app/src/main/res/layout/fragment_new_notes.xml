@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="clas.daniel.notes.EditFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/new_note_layout">
+
+            <EditText
+                android:id="@+id/note_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Title"
+                android:maxLength="20"
+                android:textSize="@dimen/note_title_size"
+                android:textCursorDrawable="@drawable/my_cursor"/>
+
+            <TextView
+                android:id="@+id/time_stamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/note_title"
+                android:textSize="@dimen/note_time_size"
+                android:layout_marginLeft="60dp" />
+
+            <ImageView
+                android:id="@+id/star_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/time_stamp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="21dp"
+                android:background="@drawable/ic_star_off" />
+
+            <clas.daniel.notes.view.RichEditText
+                android:id="@+id/rich_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/time_stamp"
+                android:layout_marginTop="24dp"
+                android:background="@color/colorGray"
+                android:gravity="top"
+                android:minLines="16"
+                android:textCursorDrawable="@drawable/my_cursor">
+            </clas.daniel.notes.view.RichEditText>
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
